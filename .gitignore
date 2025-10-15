@@ -1,0 +1,86 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pdb
+
+# --- Environment ---
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# --- FastAPI / Uvicorn / Logs ---
+*.log
+*.pid
+*.sqlite3
+*.db
+
+# --- Cache / Build ---
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# --- Jupyter / IPython ---
+.ipynb_checkpoints/
+profile_default/
+ipython_config.py
+
+# --- Editors / IDE ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+.tox/
+.nox/
+htmlcov/
+
+# --- Project Specific ---
+data/
+outputs/
+tmp/
+cache/
+__temp__/
+.vector_cache/
+*.faiss
+*.jsonl
+*.parquet
+
+# --- Docker / Compose ---
+*.bak
+*.tar
+*.gz
+*.zip
+
+# --- Node / Frontend (if exists) ---
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# --- Secrets ---
+*.pem
+*.key
+*.crt
+secrets.json
+config.local.json
+
+# --- Kaggle / API keys ---
+kaggle.json
+api_key.txt
